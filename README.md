@@ -18,7 +18,6 @@ I build web and mobile projects and lean on AI heavily throughout the process, f
 - **Using:** AI as a daily part of my workflow
 - **Learning:** by shipping real projects
 - **Skills:** full-stack apps, REST APIs, authentication, and offline-first data sync
-- **Featured project:** [IronBase](https://github.com/justseiji/IronBase), a mobile-first workout tracker with accounts and multi-device sync
 
 ---
 
