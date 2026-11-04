@@ -9,7 +9,7 @@
     #blob-a { animation: drift-a 8s ease-in-out infinite; }
     #blob-b { animation: drift-b 10s ease-in-out infinite; }
     #blob-c { animation: drift-c 7s ease-in-out infinite; }
-    #ring { transform-origin: 65px 274px; animation: pulse 2s ease-out infinite; }
+    #ring { transform-origin: 238px 274px; animation: pulse 2s ease-out infinite; }
     @media (prefers-reduced-motion: reduce) { #blob-a, #blob-b, #blob-c, #ring { animation: none; } }
   `}</style>
 
@@ -33,37 +33,31 @@
     <ellipse id="blob-c" cx="430" cy="320" rx="240" ry="160" fill="url(#amber)" />
   </svg>
 
-  <div style={{ position: 'relative', display: 'flex', width: '100%', height: '100%', padding: '40px 40px 38px 44px', justifyContent: 'space-between', alignItems: 'flex-end' }}>
-    <div style={{ display: 'flex', flexDirection: 'column', width: 470 }}>
+  <div style={{ position: 'relative', display: 'flex', width: '100%', height: '100%', padding: '40px 40px 38px 40px', justifyContent: 'center', alignItems: 'flex-end' }}>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <span style={{ fontFamily: 'GeistMono', fontSize: 12, letterSpacing: 1.4, color: '#E0A989' }}>HI, I'M</span>
-      <span style={{ fontFamily: 'Bricolage', fontSize: 74, lineHeight: 1, letterSpacing: -1.2, color: '#EDEDED', marginTop: 12 }}>Seiji Liwag</span>
+      <span style={{ fontFamily: 'SpaceGrotesk', fontSize: 74, lineHeight: 1, letterSpacing: -1.2, color: '#EDEDED', marginTop: 12 }}>Seiji Liwag</span>
       <span style={{ fontFamily: 'GeistMedium', fontSize: 17.5, color: '#E0A989', marginTop: 16 }}>AI-Assisted Developer · Web Apps & Testing Tools</span>
       <span style={{ fontSize: 15, lineHeight: 1.5, color: '#A3A3A3', marginTop: 10 }}>Turning ideas into working apps, with AI helping me move faster.</span>
-      <div style={{ display: 'flex', alignSelf: 'flex-start', alignItems: 'center', marginTop: 22, padding: '7px 14px 7px 10px', background: 'rgba(26,26,26,0.8)', border: '1px solid rgba(255,255,255,0.12)', borderRadius: 999 }}>
+      <div style={{ display: 'flex', alignItems: 'center', width: 368, marginTop: 22, padding: '7px 14px 7px 10px', background: 'rgba(26,26,26,0.8)', border: '1px solid rgba(255,255,255,0.12)', borderRadius: 999 }}>
         <div style={{ display: 'flex', width: 18, height: 18, flexShrink: 0 }} />
         <span style={{ fontFamily: 'GeistMedium', fontSize: 13, color: '#EDEDED', marginLeft: 6 }}>Open to internships, OJT and junior developer roles</span>
       </div>
-    </div>
-
-    <div style={{ display: 'flex', flexDirection: 'column', width: 230, padding: '18px 20px', background: 'rgba(26,26,26,0.85)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 16, boxShadow: '0 14px 34px -14px rgba(0,0,0,0.6)' }}>
-      {[
-        ['STUDYING', 'BS Computer Science, Holy Angel University'],
-        ['GRADUATING', '2027'],
-        ['BASED IN', 'Angeles City, Philippines'],
-      ].map(([k, v], i) => (
-        <div key={k} style={{ display: 'flex', flexDirection: 'column', marginTop: i === 0 ? 0 : 14 }}>
-          <span style={{ fontFamily: 'GeistMono', fontSize: 10, letterSpacing: 1.4, color: '#8A8A8A' }}>{k}</span>
-          <span style={{ fontFamily: 'GeistMedium', fontSize: 14, lineHeight: 1.35, color: '#EDEDED', marginTop: 3 }}>{v}</span>
-        </div>
-      ))}
     </div>
   </div>
 
   {/* The status dot. Drawn here, over the pill, because Satori clips an SVG nested inside a rounded pill. */}
   <svg width="800" height="330" style={{ position: 'absolute', top: 0, left: 0 }}>
-    <circle id="ring" cx="65" cy="274" r="4" fill="#6FCF8E" />
-    <circle cx="65" cy="274" r="4" fill="#6FCF8E" />
+    <circle id="ring" cx="238" cy="274" r="4" fill="#6FCF8E" />
+    <circle cx="238" cy="274" r="4" fill="#6FCF8E" />
   </svg>
+</div>
+```
+
+```aura width=240 height=52 link="https://jisei.vercel.app/" inline align=center
+<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 240, height: 52, background: '#E0A989', borderRadius: 999, fontFamily: 'GeistMedium', fontSize: 15, color: '#111111' }}>
+  <span>View my portfolio</span>
+  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMTExMTExIiBzdHJva2Utd2lkdGg9IjIuNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNNyAxNyAxNyA3Ii8+PHBhdGggZD0iTTggN2g5djkiLz48L3N2Zz4=" width={16} height={16} style={{ marginLeft: 8 }} />
 </div>
 ```
 
@@ -190,7 +184,7 @@
     <ellipse id="glow-a" cx="400" cy="140" rx="280" ry="110" fill="url(#gold)" />
     <ellipse id="glow-b" cx="400" cy="-10" rx="260" ry="100" fill="url(#rose)" />
   </svg>
-  <div style={{ position: 'relative', display: 'flex', fontFamily: 'Bricolage', fontSize: 30, letterSpacing: -0.6 }}>
+  <div style={{ position: 'relative', display: 'flex', fontFamily: 'SpaceGrotesk', fontSize: 30, letterSpacing: -0.6 }}>
     <span style={{ color: '#EDEDED' }}>Have an idea? Let's build something</span>
     <span style={{ color: '#E0A989', marginLeft: 8 }}>useful.</span>
   </div>
