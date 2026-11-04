@@ -54,13 +54,6 @@
 </div>
 ```
 
-```aura width=240 height=52 link="https://jisei.vercel.app/" inline align=center
-<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 240, height: 52, background: '#E0A989', borderRadius: 999, fontFamily: 'GeistMedium', fontSize: 15, color: '#111111' }}>
-  <span>View my portfolio</span>
-  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMTExMTExIiBzdHJva2Utd2lkdGg9IjIuNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNNyAxNyAxNyA3Ii8+PHBhdGggZD0iTTggN2g5djkiLz48L3N2Zz4=" width={16} height={16} style={{ marginLeft: 8 }} />
-</div>
-```
-
 ```aura width=800 height=350
 <div style={{ position: 'relative', display: 'flex', width: '100%', height: '100%', background: '#111111', borderRadius: 24, border: '1px solid rgba(255,255,255,0.1)', overflow: 'hidden', fontFamily: 'Geist' }}>
   <style>{`
@@ -188,7 +181,14 @@
     <span style={{ color: '#EDEDED' }}>Have an idea? Let's build something</span>
     <span style={{ color: '#E0A989', marginLeft: 8 }}>useful.</span>
   </div>
-  <span style={{ position: 'relative', fontSize: 14, color: '#A3A3A3', marginTop: 8 }}>Reach me on LinkedIn or by email.</span>
+  <span style={{ position: 'relative', fontSize: 14, color: '#A3A3A3', marginTop: 8 }}>See my work, or reach me on LinkedIn or by email.</span>
+</div>
+```
+
+```aura width=166 height=44 link="https://jisei.vercel.app/" inline align=center
+<div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: 150, height: 44, marginLeft: 8, background: '#1A1A1A', border: '1px solid rgba(224,169,137,0.35)', borderRadius: 999, fontFamily: 'GeistMedium', fontSize: 14, color: '#EDEDED' }}>
+  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRTBBOTg5IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiLz48cGF0aCBkPSJNMiAxMmgyMCIvPjxwYXRoIGQ9Ik0xMiAyYTE1LjMgMTUuMyAwIDAgMSA0IDEwIDE1LjMgMTUuMyAwIDAgMS00IDEwIDE1LjMgMTUuMyAwIDAgMS00LTEwIDE1LjMgMTUuMyAwIDAgMSA0LTEweiIvPjwvc3ZnPg==" width={16} height={16} />
+  <span style={{ marginLeft: 8 }}>Portfolio</span>
 </div>
 ```
 
