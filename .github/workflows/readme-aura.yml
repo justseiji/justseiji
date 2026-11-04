@@ -1,0 +1,24 @@
+name: Generate README
+
+# Rebuilds README.md and the images in .github/assets from readme.source.md
+# whenever the source or the fonts change. Run it by hand from the Actions tab too.
+on:
+  push:
+    branches: [main]
+    paths: ['readme.source.md', '.github/fonts/**']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate README
+        uses: collectioneur/readme-aura@main
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          fonts_dir: .github/fonts
