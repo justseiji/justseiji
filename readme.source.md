@@ -36,7 +36,7 @@
   <div style={{ position: 'relative', display: 'flex', width: '100%', height: '100%', padding: '40px 40px 38px 40px', justifyContent: 'center', alignItems: 'flex-end' }}>
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <span style={{ fontFamily: 'GeistMono', fontSize: 12, letterSpacing: 1.4, color: '#E0A989' }}>HI, I'M</span>
-      <span style={{ fontFamily: 'SpaceGrotesk', fontSize: 74, lineHeight: 1, letterSpacing: -1.2, color: '#EDEDED', marginTop: 12 }}>Seiji Liwag</span>
+      <span style={{ fontFamily: 'SpaceGrotesk', fontSize: 74, lineHeight: 1, letterSpacing: -1.2, color: '#EDEDED', marginTop: 12 }}>justseiji</span>
       <span style={{ fontFamily: 'GeistMedium', fontSize: 17.5, color: '#E0A989', marginTop: 16 }}>AI-Assisted Developer · Web Apps & Testing Tools</span>
       <span style={{ fontSize: 15, lineHeight: 1.5, color: '#A3A3A3', marginTop: 10 }}>Turning ideas into working apps, with AI helping me move faster.</span>
       <div style={{ display: 'flex', alignItems: 'center', width: 368, marginTop: 22, padding: '7px 14px 7px 10px', background: 'rgba(26,26,26,0.8)', border: '1px solid rgba(255,255,255,0.12)', borderRadius: 999 }}>
